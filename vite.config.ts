@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: ['react-docker-app-1-za5z.onrender.com']
+    allowedHosts: ['all'],
   }
 })
